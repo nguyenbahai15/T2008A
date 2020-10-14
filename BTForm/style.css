@@ -1,0 +1,28 @@
+body{
+	background-color: #FFFFDD;
+}
+
+textarea{
+	scrollbar-3dlight-color: #C0C0C0;
+	scrollbar-shadow-color: silver;
+	scrollbar-arrow-color: black;
+	scrollbar-face-color: gray;
+}
+
+.imghelp{
+	cursor: help;
+}
+
+#main{
+	width: 400px;
+	background-color:  #DDFFEE;
+	left: 10px;
+	right: 10px;
+}
+
+#help{
+	position: absolute;
+	width: 500px;
+	height: 420px;
+	
+}

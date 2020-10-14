@@ -4,4 +4,7 @@
 	text-transform: lowercase;
 	text-decoration: none;
 	word-spacing: normal;
+	border: 10px solid gray;
+	padding-bottom: 20px;
+	margin: 50px;
 }
