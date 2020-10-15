@@ -6,7 +6,63 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h2>Compose e-mail message.</h2>
-    
+	<button class="imghelp" onclick="clickhelp()">Help</button>
+    <div id="main">
+    	<form action="Status.html" method="post">
+    <h2>Compose e-mail message</h2>
+    <div id="voic">
+    	<div class="bot-1">To:</div>
+    	<div class="bot-2"><input type="text" class="emaileditor" name="To"></div>
+    </div>
+    <div id="voic">
+    	<div class="bot-1">From:</div>
+    	<div class="bot-2"><input type="text" class="emaileditor" name="To"></div>
+    </div>
+    <div id="voic">
+    	<div class="bot-1">Cc:</div>
+    	<div class="bot-2"><input type="text" class="emaileditor" name="To"></div>
+    </div>
+    <div id="voic">
+    	<div class="bot-1">Subject:</div>
+    	<div class="bot-2"><input type="text" class="emaileditor" name="To"></div>
+    </div>
+    <div id="voic">
+    	<div class="bot-1">Message:</div>
+    	<div class="bot-2">
+    		<textarea rows="5" class="emaileditor"></textarea>
+    	</div>
+    </div>
+    <div id="voic">
+    	<div class="bot-1"></div>
+    	<div class="bot-2">
+	   	<button>Senf</button>
+    	<button>Cancal</button>		
+    	</div>
+    </div>
+</form>
+    </div>
+    <div id="help">
+    	<h2>-: E-mail Editor Help :-</h2>
+    	<ul>
+    		<li><b>To and Cc:</b><br/>
+    			<b>To</b> and <b>Cc</b> boxes allow you to enter e-mail addresses of the recepoents to whom to message has to be sent. Recipients be able to see who else was sent the message by looking at the contents of the <b>To</b> and <b>Cc</b> boxer.
+    		</li>
+    		<li><b>Subject:</b><br/>
+    			The <b>Subject</b> box allows you to enter meaningful summary of the message.</li>
+    			<li><b>Message:</b><br/>
+    				The <b>Message</b> TextArea allows you to enter the text of your message.</li>
+    	</ul>
+    	<div class="close" onclick="closeH()">Close</div>
+    </div>
+    <script type="text/javascript">
+    	function clickhelp(){
+    		document.getElementById('help').style.display = 'block';
+    		document.getElementById('main').style.display = 'none';
+    	}
+    	function closeH(){
+    			document.getElementById('help').style.display = 'none';
+    		document.getElementById('main').style.display = 'block';
+    		}
+    </script>
 </body>
 </html>
