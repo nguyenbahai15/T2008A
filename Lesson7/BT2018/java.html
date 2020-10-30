@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#class{
+			background-color: green;
+			color: white;
+			border: 1px solid;
+			border-radius:5px ;
+		}
+	</style>
+</head>
+<body>
+	<div>
+	<button onclick="click3()" id="class">Nhập Giá Trị A</button>
+	<button onclick="click1()" id="class">Nhâp Giá Trị B</button>
+	<button onclick="click2()" id="class">In kết quả</button>
+	</div>
+
+	<script type="text/javascript">
+	var a, b
+	function click3(){
+		a = prompt('Nhap a') 
+	}
+	function click1(){
+		b = prompt('Nhap b')
+	}
+	function click2(){
+		num = a + b;
+		alert(num)
+	}
+</script>
+</body>
+</html>

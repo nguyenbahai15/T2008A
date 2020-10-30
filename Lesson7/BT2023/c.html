@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.border{
+			border: 1px solid;
+			width: 400px;
+			padding: 20px;
+			background-color: #baffde; 
+		}
+		.work{
+			border: 1px solid black;
+			width: 40%;
+			background-color: #b5e7ff;
+			font-weight: bold;
+			color: blue;
+		}
+		.number{
+			border: 1px solid;
+			border-radius: 5px;
+			font-weight: bold;	
+			margin-top: 20px;	
+		}
+		.room{
+			border: 1px solid;
+			margin: 10px;
+			padding-left: 100px;
+			background-color: gray;
+		}
+		.num_secon{
+			padding: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div style="position: absolute; margin-top: 52px; margin-left: 30px; background-color: #baffde;">Product Information</div>
+	<div style="position: absolute; margin-top: 224px; margin-left: 30px; background-color: #baffde;">Shipping Information</div>
+	<div class="border">
+		<div class="work">Purchase Order Form</div>
+
+		<div class="row">
+			<form method="num">
+				<div class="number">
+					<div class="num_secon">
+						<table border="1">
+						<thead>
+							<tr>
+								<th>Product:</th>
+								<th>
+									<select>
+										<option>Select</option>
+										<option value="650">Comfort Sleeper</option>
+										<option value="975">Morgan Kids Bed</option>
+										<option value="480">Entertainment Cabinet</option>
+									</select>
+								</th>
+							</tr>
+							<tr>
+								<th>Unit Price ($):</th>
+								<th>
+									<input type="number" name="price" id="price" value="0">
+								</th>
+							</tr>
+							<tr>
+								<th>Quantity:</th>
+								<th>
+									<input type="number" name="quantity" id="quantity" value="0">
+								</th>
+							</tr>
+							<tr>
+								<th>Total Price ($):</th>
+								<th>
+									<input type="text" name="total_price" id="total_price" value="0">
+								</th>
+							</tr>
+						</thead>
+					</table>
+					</div>
+					
+				</div>
+
+				<div class="number">
+					<div class="num_secon">
+						<table border="1">
+							<thead>
+								<tr>
+									<th>Full Name:</th>
+									<th>
+										<input type="text" name="fullname" id="fullname">
+									</th>
+								</tr>
+								<tr>
+									<th>Shipping Address:</th>
+									<th>
+										<textarea id="shipping" ></textarea>
+									</th>
+								</tr>
+								<tr>
+									<th>Credit Card:</th>
+									<th>
+										<select>
+											<option>Select</option>
+											<option value="650">VISA</option>
+											<option value="975">Master Card</option>
+											<option value="480">American Express</option>
+										</select>
+									</th>
+								</tr>
+								<tr>
+									<th>Credit Card Number:</th>
+									<th>
+										<li><input type="text" name="card" id="number1" maxlength="4"></li>
+										<li><input type="text" name="card" id="number2" maxlength="4"></li>
+										<li><input type="text" name="card" id="number3" maxlength="4"></li>
+										<li><input type="text" name="card" id="number4" maxlength="4"></li>
+									</th>
+								</tr>								
+							</thead>
+						</table>
+					</div>
+				</div>
+			</form>
+			<div class="room">
+				<button>Submit</button>
+				<button>Reset</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

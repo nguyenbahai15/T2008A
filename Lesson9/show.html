@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+
+</head>
+<body>
+	<button onclick="Showfile()">Click</button>
+	<div id="show"></div>
+	<script type="text/javascript">
+		function Showfile() {
+			document.getElementById('show').innerHTML`
+
+			<form>
+				<p>
+				<label>Ten:</label>
+				<input disabled type="text" name="ten" id="ten_form">
+			</p>
+			<p>
+				<label>Tuoi:</label>
+				<input type="number" name="tuoi" id="tuoi_form" disabled>
+			</p>
+			<p>
+				<label>Email:</label>
+				<input type="email" name="email" id="email_form" disabled>
+			</p>
+			</form>`
+
+			document.getElementById('ten_form').value = localStorage.getItem('ten_db')
+			document.getElementById('tuoi_form').value = localStorage.getItem('tuoi_db')
+			document.getElementById('email_form').value = localStorage.getItem('email_db')
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bot</title>
+</head>
+<body>
+	<script type="text/javascript">
+		
+			var a,b, x
+		a = prompt('Nhap a')
+		b = prompt('Nhap b')
+
+		function giai(a,b){
+			if(a==0) {
+				if (b==0) {
+					document.write('PTVSN')
+					str =+'PTVSN'
+				} else {
+					str =+  'PTVN'
+				}
+			} else {
+				x = -b/a;
+				document.write('x = ' + x)
+				x = eval(x);
+			}
+		}
+
+		giai(a, b)
+		
+	</script>
+</body>
+</html>

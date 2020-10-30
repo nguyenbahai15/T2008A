@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+</head>
+<body>
+		<script type="text/javascript">
+			var x, y, z, num
+			var a = prompt('Nhap a');
+			var b = prompt('Nhap b');
+			var c = prompt('Nhap c');
+			num = b*b - 4*a*c;
+
+			if(num < 0){
+				document.write('ptvn');
+			}
+			if(num == 0){
+				var x = -b/(2*a);
+				document.write('ptc1n')
+			}
+			else {
+				var x1 = (-b + Math.sqrt(num))/(2*a);
+				var x2 = (-b - Math.sqrt(num))/(2*a);
+				document.write('x1');
+				document.write('x2');
+			}
+		</script>
+	</table>
+</body>
+</html>

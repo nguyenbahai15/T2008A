@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		.sub {
+			font-weight: bold;
+			border: 1px solid red;
+			background-color: #ffd9d9;
+			padding-left: 10px;
+		}
+		.bow {
+			border: 1px solid red;
+			margin-top: 20px;
+			padding: 15px;	
+		}
+		.bowwer {
+			margin-top: -25px;
+			width: 17%;
+			background-color: white;
+			color: blue;
+		}
+		.ship {
+			margin-top: 20px;
+			background-color: #ffd9d9;
+			padding-left: 20px;
+		}
+		.tool {
+			width: 50%;
+		}
+	</style>
+</head>
+<body>
+	<div class="sub">
+		Loan Application Form
+	</div>
+
+	<div class="bow">
+		<div class="bowwer">Applicant's Personal Information</div>
+		<div class="ship">
+			<div class="skip">
+				<label>Full Name:</label>
+				<input class="tool" type="text" name="fullname">					
+			</div>
+			<div class="skip">
+				<label>Date of Birth (MM/dd/yyyy):</label>
+				<input class="tool" type="Date" name="Date">
+			</div>
+			<div class="skip">
+				<label>Phone number:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Address:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>ZIP Code:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+		</div>
+	</div>
+
+	<div class="bow">
+		<div class="bowwer">Applicant's Employment Information</div>
+		<div class="ship">
+			<div class="skip">
+				<label>Current Employer:</label>
+				<input class="tool" type="text" name="fullname">					
+			</div>
+			<div class="skip">
+				<label>Employer Address:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Date of Joining (MM/dd/yyyy):</label>
+				<input class="tool" type="Date" name="Date">
+			</div>
+			<div class="skip">
+				<label>Phone number:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>E-mail ID:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Fax:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Designation:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Annual Income ($):</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+		</div>
+	</div>
+
+	<div class="bow">
+		<div class="bowwer">Applicant's Personal Information</div>
+		<div class="ship">
+			<div class="skip">
+				<label>Loan Type:</label>
+				<select class="tool" id="" onchange="Loantype()">
+					<option>Select</option>
+					<option>Personal Loan</option>
+					<option>Home Loan</option>
+					<option>Vehicle Loan</option>
+					<option>Business Loan</option>
+					<option>Education Loan</option>
+				</select>					
+			</div>
+			<div class="skip">
+				<label>Principal:</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Period (Months):</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+			<div class="skip">
+				<label>Interest (%):</label>
+				<input class="tool" type="text" name="fullname">
+			</div>
+
+			<button>Submit</button>
+			<button>Reset</button>
+		</div>
+	</div>
+</body>
+</html>
