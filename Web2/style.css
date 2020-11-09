@@ -1,0 +1,25 @@
+.header{
+	background: url(http://s.truyenchon.com/Data/Sites/1/skins/comic/images/bg_header_2017.jpg) top center repeat-x;
+	width: 100%;
+	height: 50px;
+	display: block;
+	transition: top .3s ease-in-out;
+}
+.header .navbar {
+    z-index: 1001;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+.header .navbar-brand .logo {
+    margin: 0;
+    display: block;
+    line-height: 45px;
+    height: 100%;
+}
+.header .navbar-brand{
+	margin-top: -14px;
+}
