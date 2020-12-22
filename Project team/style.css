@@ -399,3 +399,337 @@ body {
 .job_icons {
 	margin-top: 17px;
 }
+
+.top {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	background-color: rgb(255, 132, 5);
+	height: 140px;
+	opacity: 1;
+	text-align: center;
+	font-family: 'helvetica';
+	font-size: 80px;
+	font-weight: 100;
+	color: #fff;
+}
+
+.title {
+	position: absolute;
+  	left: 575px;
+  	top: -27px;
+  	font-weight: 666;
+  	text-transform: uppercase;
+}
+
+body em {
+	font-family: Libre Baskerville;
+    text-transform: none;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #676767;
+}
+
+.title_sea {
+	position: absolute;
+	left: 400px;
+	font-weight: 666;
+	text-transform: uppercase;
+	font-size: 58px;
+	top: 22px;
+}
+
+.title_red {
+	background-color: #ed0047;
+	color: #fff;
+	text-align: center;
+}
+
+.title_red h3 {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 666;
+}
+
+.sea_img {
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.sea_tag {
+	color: #676767;
+	padding-bottom: 20px;
+}
+
+.sea_price {
+	background-color: rgba(3,137,171,0.12); 
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
+.sea_price p {
+	color: #676767;
+}
+
+.sea_price h3 {
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 666;
+    margin-bottom: 8px;
+}
+
+.sea_time {
+	padding-top: 20px;
+	color: #676767;
+	padding-bottom: 60px;
+}
+
+.sea_time a{
+	color: #ed0047;
+}
+
+.sea_time a:hover {
+	color: #676767;
+}
+
+.sea_time h3 {
+	color: #444;
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 666;
+    margin-bottom: 8px;
+}
+
+.sea_time p {
+	color: #676767;
+	padding-bottom: 10px;
+}
+
+.forms_name {
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.frm_label {
+	font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+    padding: 0 0 3px 0;
+    width: auto;
+    display: block;float: none;
+    max-width: 100%;
+}
+
+.frm_requied {
+	color: #ed0047!important;
+}
+
+.forms_name input {
+	height: 32px;
+    line-height: 1.3;
+    color: #555555;
+    max-width: 100%;
+    padding: 6px 10px;
+    box-sizing: border-box;
+    outline: none;
+    font-weight: normal;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    background-color: transparent!important;
+    border: 1px solid #ccc!important;
+    -webkit-box-shadow: none!important;
+    font-size: 16px!important;
+    border-radius: 5px;
+}
+
+.frm_radio {
+	display: block;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+.frm_radio label{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: normal;
+    display: inline;
+    white-space: normal;
+}
+
+.frm_radio input {
+	display: inline-block;
+    width: auto;
+    border: none;
+    vertical-align: baseline;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+.frm_submit {
+	clear: both;
+}
+
+.frm_submit input{
+	background-color: #ed0047!important;
+	padding: 15px 22px!important;
+	width: auto;
+    font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,sans-serif;
+    font-size: 16px;
+    height: auto;
+    line-height: normal;
+    text-align: center;
+    background: #ffffff;
+    border-width: 1px;
+    border-color: #cccccc;
+    border-style: solid;
+    color: #444444;
+    cursor: pointer;
+    font-weight: normal;
+    text-shadow: none;
+    box-sizing: border-box;
+    box-shadow: 0 1px 1px #eeeeee;
+    margin: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    vertical-align: middle;
+    border-radius: 0!important;
+    letter-spacing: 2px;
+    border: none;
+    -webkit-transition: all 0.45s cubic-bezier(0.25, 1, 0.33, 1);
+}
+
+/* PD DAY CAMP */
+
+.title_PD {
+	padding-top: 40px;
+	font-size: 60px;
+	line-height: 62px;
+	font-weight: 777;
+}
+
+.DP_price {
+	background-color: rgba(3,137,171,0.12); 
+	padding-bottom: 10px;
+	padding-top: 30px;
+	color: #676767;
+}
+
+.col_DP h3 {
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 666;
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.col_DP a {
+	background-color: #ed0047!important;
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: normal;
+    border-radius: 0!important;
+    box-shadow: none!important;
+    padding: 10px 15px;
+    color: #FFFFFF;
+    position: relative;
+    text-transform: uppercase;
+    top: -3px;
+    margin-bottom: 10px;
+    opacity: 1;
+    line-height: 20px;
+    display: inline-block;
+}
+
+.col_DP a:hover {
+	color: #fff;
+}
+
+.DP_contact {
+	padding-top: 40px;
+}
+
+.contact_item a {
+	color: #ed0047;
+}
+
+.contact_item a:hover {
+	color: #676767;
+}
+
+.contact_item strong {
+	color: #676767;
+}
+
+.contact_item h3 {
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 777;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* summer day camp */
+
+.summer_hold h2 {
+	font-family: Lovelo,sans-serif;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 777;
+    color: #444;
+    letter-spacing: -0.5px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 10px;
+}
+
+.summer_hold {
+	padding-top: 25px;
+	color: #676767;
+}
+
+.summer_hold a:hover {
+	color: #676767;
+}
+
+.summer_hold a {
+	color: #ed0047;
+}
+
+.smr_information h3 {
+	font-family: Lovelo,sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    line-height: 18px;
+    font-weight: 666;
+    margin-bottom: 8px;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+}
+
+.smr_information {
+	padding-top: 40px;
+	color: #676767;
+}
+
+.smr_information strong {
+	font-family: 'Open Sans';
+    font-weight: 600;
+}
